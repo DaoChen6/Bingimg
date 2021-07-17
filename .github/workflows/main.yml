@@ -3,7 +3,7 @@ name: 'GitHub Actions Bingimg'
 on:
   push:
     branches: 
-      - master
+      - main
   schedule:
     - cron: '0 16 * * *'
 jobs:
